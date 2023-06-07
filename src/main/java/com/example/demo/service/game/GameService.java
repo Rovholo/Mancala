@@ -14,4 +14,6 @@ public interface GameService {
 
     GameState updateState(GameState gameState);
 
+    GameState setGameState(GameState gameState);
+
 }

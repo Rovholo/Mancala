@@ -30,6 +30,9 @@ public class GameState {
     @Column(name = "STATE")
     private List<Integer> state;
 
+    @Column(name = "ACTIVE_PLAYER")
+    private int activePlayer;
+
     public GameState() {
 
     }
@@ -81,4 +84,13 @@ public class GameState {
     public void setState(List<Integer> state) {
         this.state = state;
     }
+
+    public int getActivePlayer() {
+        return activePlayer;
+    }
+
+    public void setActivePlayer(int activePlayer) {
+        this.activePlayer = activePlayer;
+    }
+
 }
