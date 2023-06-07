@@ -1,3 +1,8 @@
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed. haha";
+    window.location.href="/game/game.html"
+}
+
+function joinGame() {
+    const val =  document.getElementById('nameField').value;
+    window.location.href = "/game/game.html?id=" + val;
 }
