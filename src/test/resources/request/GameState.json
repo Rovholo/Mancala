@@ -1,0 +1,8 @@
+{
+  "id": 123,
+  "player1Id":  1,
+  "player2Id":  2,
+  "player1Score": 6,
+  "player2Score": 1,
+  "state": [6,5,6,6,0,6,6,6,6,6,6,6]
+}
